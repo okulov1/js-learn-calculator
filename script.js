@@ -21,6 +21,10 @@ function get_result(){
     } else if (a == 'divide') {
         result = fn / ln;
     }
+    
+    if (result == Infinity || result == NaN) {
+        result = 'Error';
+    }
 
     document.getElementById('show_result').innerHTML = result;
 }
