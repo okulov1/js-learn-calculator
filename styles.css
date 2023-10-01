@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4c4ff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content {
+    text-align: center;
+    margin: 0 600px;
+    margin-top: 200px;
+    padding: 50px;
+    background-color: #9e4aff;
+    border: #6400d6 5px solid;
+    border-radius: 10px;
+}
+
+.number-input {
+    background-color: #c999ff;
+    border: #f4c4ff 3px solid;
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    transition: 0.1s linear;
+}
+
+.number-input:hover {
+    background-color: #d9b8ff;
+    border: #fff 3px solid;
+    width: 510px;
+    height: 31px;
+    font-size: 21px;
+    padding: 6px;
+}
+
+select {
+    width: 500px;
+    height: 30px;
+    background-color: #c999ff;
+    border: #f4c4ff 3px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.1s linear;
+}
+
+select:hover {
+    width: 510px;
+    height: 35px;
+    background-color: #d9b8ff;
+    border: #fff 3px solid;
+    font-size: 30px;
+    padding: 0;
+}
+
+label {
+    color: #fff;
+    font-size: 16px;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
+
+
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.result-button {
+    width: 500px;
+    height: 50px;
+    background-color: #ecdbff;
+    border: #fff 5px solid;
+    border-radius: 10px;
+    font-size: 40px;
+    color: #730096;
+    transition: 0.1s linear;
+}
+
+.result-button:hover {
+    background-color: #fff;
+    width: 510px;
+    height: 55px;
+    color: #000;
+}
+
+#show_result {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 50px;
+    font-style: bold;
+}
